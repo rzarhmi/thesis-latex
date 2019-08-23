@@ -2,8 +2,8 @@
 %--------------------------------------------------------------------------
 %
 %  M.Sc. Thesis
-%  [Put Your Thesis Title Here]
-%  By: [Put Your Name Here]
+%  [Human Action Recognition with ST-GCN]
+%  By: [Reza Rahimi Azghan]
 %
 %--------------------------------------------------------------------------
 
@@ -24,12 +24,14 @@
 \input{styles/common.tex}
 \input{styles/custom.tex}
 
+%\usepackage{subcaption}
+
 \begin{document}
 
 
 % -------------------- Front Pages --------------------
 
-%\pagenumbering{alph}
+%\pagenumbering{alph}	
 
 \input{front/info.tex}
 \input{front/template/title.tex}
@@ -37,9 +39,11 @@
 \input{front/template/besmellah.tex}
 \input{front/template/signatures.tex}
 
-%\input{front/acknowledge.tex}
-\input{front/abstract.tex}
+\input{front/acknowledge.tex}
 
+%TODOOOO *************************************************************
+\input{front/abstract.tex}
+%TODOOOO *************************************************************
 
 % -------------------- Table of Contents --------------------
 
@@ -54,26 +58,27 @@
 
 % -------------------- Chapters --------------------
 
-\include{chapters/guide}
-\include{chapters/writing}
+%\include{chapters/guide}
+%\include{chapters/writing}
 \include{chapters/introduction}
 \include{chapters/definitions}
 \include{chapters/literature}
 \include{chapters/results}
+\include{chapters/experiments}
 \include{chapters/conclusions}
 
 
 % -------------------- Appendices --------------------
-
-\begin{appendix}
-\include{chapters/appendix}
-\end{appendix}
+%
+%\begin{appendix}
+%\include{chapters/appendix}
+%\end{appendix}
 
 % -------------------- Bibliography --------------------
 
 
 \input{bibs/bibs.tex}
-
+\nocite{*}
 
 % -------------------- English Pages --------------------
 
@@ -88,3 +93,6 @@
 % -------------------- The End! --------------------
 
 \end{document}
+
+
+
