@@ -1,0 +1,6 @@
+RGB-D a raje tozih (fikkeram)
+gcn in karbordi 
+human actin rec in karbordi
+jadvallar va akslar (jadvallan ichindaki sheylar)
+normalize graph: https://arxiv.org/pdf/1901.00596.pdf
+

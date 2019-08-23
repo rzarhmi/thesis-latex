@@ -1,0 +1,5 @@
+rgbd vs shit : https://www.researchgate.net/figure/Video-streams-product-by-Kinect-RGB-image-depth-image-and-skeleton-given-in-a-frame_fig1_308001852
+stgcn is from the paper one
+CNN overview: https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781788390392/4/ch04lvl1sec23/an-overview-and-the-intuition-of-cnn
+gsin: https://arxiv.org/pdf/1901.00596.pdf
+LSTM structure: https://www.d2l.ai/chapter_recurrent-neural-networks/lstm.html

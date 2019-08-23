@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/mortality.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>New Tab</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/css/style.css">
+  <link rel="stylesheet" href="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/css/magnific-popup.css">
+  <link rel="stylesheet" href="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/css/sidepanel.css">
+  <link rel="stylesheet" href="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/css/segmented-controls.css">
+  <link rel="stylesheet" href="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/css/cs-select.css">
+  <link rel="stylesheet" href="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/css/cs-skin-elastic.css">
+  <link rel="stylesheet" href="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/css/magic-check.css">
+<style id="largeFontClockCSS" type="text/css">.clock {font-size:7vw;}</style></head>
+<body style="background-color: rgb(29, 29, 29); color: rgb(239, 244, 255);">
+
+<div id="theSidePanel" class="sidePanel">
+  <div id="fadedForeground"></div>
+  <ul class="navBar">
+    <li id="aboutButtonLI"><a id="aboutButton" class="UnpressedButton">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>Info</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-40.000000, -1454.000000)" fill="#2E4063">
+            <path d="M55.99952,1458 C49.37216,1458 44,1463.37264 44,1470 C44,1476.62784 49.37216,1482 55.99952,1482 C62.62736,1482 68,1476.62784 68,1470 C68,1463.37264 62.62736,1458 55.99952,1458 L55.99952,1458 Z M54.5838771,1478 C54.0294521,1478 53.6417113,1477.55886 53.7192366,1477.00466 L54.920767,1468.41534 C54.9976643,1467.86563 55.5024361,1467.42 56.0638771,1467.42 L56.5961266,1467.42 C57.1505516,1467.42 57.5382923,1467.86114 57.460767,1468.41534 L56.2592366,1477.00466 C56.1823394,1477.55437 55.6775676,1478 55.1161266,1478 L54.5838771,1478 L54.5838771,1478 Z M58.0499945,1462.45 C58.3099958,1462.71 58.4399945,1463.04666 58.4399945,1463.46 C58.4399945,1463.94 58.2733295,1464.34333 57.9399945,1464.67 C57.6066595,1464.99667 57.1933303,1465.16 56.6999945,1465.16 C56.2599923,1465.16 55.9099958,1465.03 55.6499945,1464.77 C55.3899932,1464.51 55.2599945,1464.17334 55.2599945,1463.76 C55.2599945,1463.28 55.4266595,1462.87667 55.7599945,1462.55 C56.0933295,1462.22333 56.5066587,1462.06 56.9999945,1462.06 C57.4399967,1462.06 57.7899932,1462.19 58.0499945,1462.45 L58.0499945,1462.45 Z" id="Info"></path>
+        </g>
+    </g>
+</svg>
+      <span></span>
+    </a></li>
+    <li><a id="updatesButton" class="UnpressedButton">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>List</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-456.000000, -1504.000000)" fill="#2E4063">
+            <path d="M467,1513 C467,1512.44772 467.444631,1512 468.000872,1512 L481.999128,1512 C482.551894,1512 483,1512.44386 483,1513 C483,1513.55228 482.555369,1514 481.999128,1514 L468.000872,1514 C467.448106,1514 467,1513.55614 467,1513 L467,1513 Z M467,1527 C467,1526.44772 467.444631,1526 468.000872,1526 L481.999128,1526 C482.551894,1526 483,1526.44386 483,1527 C483,1527.55228 482.555369,1528 481.999128,1528 L468.000872,1528 C467.448106,1528 467,1527.55614 467,1527 L467,1527 Z M467,1520 C467,1519.44772 467.444631,1519 468.000872,1519 L481.999128,1519 C482.551894,1519 483,1519.44386 483,1520 C483,1520.55228 482.555369,1521 481.999128,1521 L468.000872,1521 C467.448106,1521 467,1520.55614 467,1520 L467,1520 Z M463,1515 C464.104569,1515 465,1514.10457 465,1513 C465,1511.89543 464.104569,1511 463,1511 C461.895431,1511 461,1511.89543 461,1513 C461,1514.10457 461.895431,1515 463,1515 L463,1515 Z M463,1522 C464.104569,1522 465,1521.10457 465,1520 C465,1518.89543 464.104569,1518 463,1518 C461.895431,1518 461,1518.89543 461,1520 C461,1521.10457 461.895431,1522 463,1522 L463,1522 Z M463,1529 C464.104569,1529 465,1528.10457 465,1527 C465,1525.89543 464.104569,1525 463,1525 C461.895431,1525 461,1525.89543 461,1527 C461,1528.10457 461.895431,1529 463,1529 L463,1529 Z" id="List"></path>
+        </g>
+    </g>
+</svg>
+      <span></span>
+    </a></li>
+    <li><a id="themeButton" class="UnpressedButton">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>ColorPalette</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-404.000000, -986.000000)" fill="#2E4063">
+            <path d="M425.62,1000.22086 C425.62,998.96721 426.639,997.950114 427.895,997.950114 C429.151,997.950114 430.17,998.96721 430.17,1000.22086 C430.17,1001.47452 429.151,1002.49161 427.895,1002.49161 C426.639,1002.49161 425.62,1001.47452 425.62,1000.22086 L425.62,1000.22086 Z M422.275,996.938009 C421.019,996.938009 420,995.920914 420,994.667261 C420,993.41261 421.019,992.396513 422.275,992.396513 C423.532,992.396513 424.55,993.41261 424.55,994.667261 C424.55,995.920914 423.532,996.938009 422.275,996.938009 M414.57,998.890354 C413.314,998.890354 412.295,997.873258 412.295,996.619605 C412.295,995.364955 413.314,994.348857 414.57,994.348857 C415.827,994.348857 416.845,995.364955 416.845,996.619605 C416.845,997.873258 415.827,998.890354 414.57,998.890354 M412.295,1006.38432 C411.039,1006.38432 410.02,1005.36723 410.02,1004.11357 C410.02,1002.85992 411.039,1001.84283 412.295,1001.84283 C413.552,1001.84283 414.57,1002.85992 414.57,1004.11357 C414.57,1005.36723 413.552,1006.38432 412.295,1006.38432 M420,990 C412.82,990 407,995.437818 407,1002.23309 C407,1009.02837 412.855,1013.99906 420.035,1013.99906 C420.035,1013.99906 422.275,1014.0879 423.157,1012.53481 C423.586,1011.09051 423.136,1010.34491 422.233,1009.4416 C420.758,1007.96836 421.539,1005.66766 424.109,1005.66766 L429.065,1005.66766 C431.467,1005.66766 432.999,1004.75238 432.999,1002.37483 C433,995.579553 427.179,990 420,990" id="ColorPalette"></path>
+        </g>
+    </g>
+</svg>
+      <span></span>
+    </a></li>
+    <li><a id="donateButton" class="UnpressedButton">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>Present</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-248.000000, -1868.000000)" fill="#2E4063">
+            <path d="M263,1886 L256,1886 L256,1888 L263,1888 L263,1896 L265,1896 L265,1888 L272,1888 L272,1886 L265,1886 L265,1879 L263,1879 L263,1886 L263,1886 Z M272,1882 L272,1894.99913 C272,1895.55189 271.555369,1896 270.999128,1896 L257.000872,1896 C256.448106,1896 256,1895.55537 256,1894.99913 L256,1882 L253.500836,1882 C253.224232,1882 253,1881.78425 253,1881.50461 L253,1879.49539 C253,1879.22179 253.217742,1879 253.500836,1879 L274.499164,1879 C274.775768,1879 275,1879.21575 275,1879.49539 L275,1881.50461 C275,1881.77821 274.782258,1882 274.499164,1882 L272,1882 L272,1882 Z M257,1875.5 C257,1873.567 258.570937,1872 260.5,1872 C262.432997,1872 264,1873.57094 264,1875.5 L264,1879 L260.5,1879 C258.567003,1879 257,1877.42906 257,1875.5 L257,1875.5 Z M260.5,1877.5 L262.5,1877.5 L262.5,1875.5 C262.5,1874.39774 261.602951,1873.5 260.5,1873.5 C259.397745,1873.5 258.5,1874.39705 258.5,1875.5 C258.5,1876.60226 259.397049,1877.5 260.5,1877.5 L260.5,1877.5 Z M264,1875.5 C264,1873.567 265.570937,1872 267.5,1872 C269.432997,1872 271,1873.57094 271,1875.5 C271,1877.433 269.429063,1879 267.5,1879 L264,1879 L264,1875.5 L264,1875.5 Z M265.5,1877.5 L267.5,1877.5 C268.602255,1877.5 269.5,1876.60295 269.5,1875.5 C269.5,1874.39774 268.602951,1873.5 267.5,1873.5 C266.397745,1873.5 265.5,1874.39705 265.5,1875.5 L265.5,1877.5 L265.5,1877.5 Z" id="Present"></path>
+        </g>
+    </g>
+</svg>
+      <span></span>
+    </a></li>
+    <li><a id="settingsButton" class="UnpressedButton">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>Settings</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-404.000000, -2024.000000)" fill="#2E4063">
+            <path d="M425.054396,2048.63048 C424.423419,2049.00081 423.748227,2049.30392 423.038654,2049.52997 C422.661384,2051.19942 422.316906,2052.05946 422.316906,2052.05946 C422.141884,2052.57891 421.556647,2053 420.990631,2053 L419.009369,2053 C418.45191,2053 417.895287,2052.56409 417.770575,2052.02748 C417.770575,2052.02748 417.531529,2051.06858 417.229106,2049.61113 C416.594784,2049.42859 415.986335,2049.18494 415.410539,2048.88699 C413.962929,2049.80097 413.110972,2050.16563 413.110972,2050.16563 C412.61991,2050.40917 411.908327,2050.2931 411.508094,2049.89287 L410.10713,2048.49191 C409.712947,2048.09772 409.627588,2047.3959 409.918846,2046.92827 C409.918846,2046.92827 410.428051,2046.08088 411.245048,2044.83607 C410.930833,2044.26845 410.670217,2043.66703 410.47003,2043.03865 C408.800579,2042.66138 407.940537,2042.31691 407.940537,2042.31691 C407.421093,2042.14188 407,2041.55665 407,2040.99063 L407,2039.00937 C407,2038.45191 407.435907,2037.89529 407.972521,2037.77057 C407.972521,2037.77057 408.93142,2037.53153 410.388868,2037.22911 C410.571414,2036.59478 410.815056,2035.98633 411.113015,2035.41054 C410.19903,2033.96293 409.834372,2033.11097 409.834372,2033.11097 C409.590829,2032.61991 409.706896,2031.90833 410.10713,2031.50809 L411.508094,2030.10713 C411.902277,2029.71295 412.604101,2029.62759 413.07173,2029.91885 C413.07173,2029.91885 413.919124,2030.42805 415.163926,2031.24505 C415.841633,2030.8699 416.56751,2030.57115 417.329934,2030.36043 C417.600673,2028.93648 417.80459,2027.96157 417.80459,2027.96157 C417.912512,2027.43051 418.443353,2027 419.009369,2027 L420.990631,2027 C421.54809,2027 422.071181,2027.44634 422.156937,2027.98497 C422.156937,2027.98497 422.310293,2028.94489 422.528533,2030.32243 C423.377319,2030.54358 424.182215,2030.87345 424.92746,2031.29626 C426.126172,2030.48055 426.960067,2029.93515 426.960067,2029.93515 C427.411895,2029.63595 428.091673,2029.7069 428.491906,2030.10713 L429.89287,2031.50809 C430.287053,2031.90228 430.341323,2032.58777 430.021094,2033.02927 C430.021094,2033.02927 429.450518,2033.81682 428.630483,2034.9456 C429.064411,2035.68495 429.406048,2036.485 429.639573,2037.32993 C431.063518,2037.60067 432.038431,2037.80459 432.038431,2037.80459 C432.569491,2037.91251 433,2038.44335 433,2039.00937 L433,2040.99063 C433,2041.54809 432.553658,2042.07118 432.015031,2042.15694 C432.015031,2042.15694 431.055107,2042.31029 429.677567,2042.52853 C429.456415,2043.37732 429.126551,2044.18222 428.703736,2044.92746 C429.519449,2046.12617 430.064845,2046.96007 430.064845,2046.96007 C430.364049,2047.4119 430.293104,2048.09167 429.89287,2048.49191 L428.491906,2049.89287 C428.097723,2050.28705 427.412231,2050.34132 426.970725,2050.02109 C426.970725,2050.02109 426.183175,2049.45052 425.054396,2048.63048 L425.054396,2048.63048 Z M420,2044 C422.209139,2044 424,2042.20914 424,2040 C424,2037.79086 422.209139,2036 420,2036 C417.790861,2036 416,2037.79086 416,2040 C416,2042.20914 417.790861,2044 420,2044 L420,2044 Z" id="Settings"></path>
+        </g>
+    </g>
+</svg>
+      <span></span>
+    </a></li>
+  </ul>
+
+  <a target="_blank" href="https://mortality.uservoice.com/" id="feedback-button" class="right-navButtons">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>InboxIn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-456.000000, -1402.000000)" fill="#2E4063">
+            <path d="M477,1410 L478.999128,1410 C479.555369,1410 480.094447,1410.44075 480.210954,1410.98445 L483,1424 L483,1429 C483,1429.552 482.554,1430 482,1430 L462,1430 C461.448,1430 461,1429.552 461,1429 L461,1424 L463.789046,1410.98445 C463.906926,1410.43434 464.448106,1410 465.000872,1410 L467,1410 L467,1412 L465.901331,1412 C465.629105,1412 465.356541,1412.21727 465.302939,1412.48528 L463.097055,1423.51472 C463.0458,1423.771 463.226172,1424 463.505169,1424 L467.258,1424 C467.258,1424.886 467.982,1425.61 468.868,1425.61 L475.134,1425.61 C476.02,1425.61 476.744,1424.886 476.744,1424 L480.495068,1424 C480.771179,1424 480.956547,1423.78273 480.902945,1423.51472 L478.697061,1412.48528 C478.645806,1412.229 478.37555,1412 478.098669,1412 L477,1412 L477,1410 L477,1410 Z M474,1406.50965 C474,1406.22765 473.774045,1406 473.495316,1406 L470.504684,1406 C470.214035,1406 470,1406.22818 470,1406.50965 L470,1416.01528 C468.504967,1416.05438 468.21026,1416.16724 468.033322,1416.3391 C467.604316,1416.75559 471.4496,1423 471.994584,1423 C472.539342,1423 476.456915,1416.82533 475.955846,1416.3391 C475.752078,1416.1412 475.473714,1416.03539 474,1416.00754 L474,1406.50965 L474,1406.50965 Z" id="InboxIn"></path>
+        </g>
+    </g>
+</svg>
+    <span>Feedback</span>
+  </a>
+  <a target="_blank" href="https://about.me/mattyayoh" id="contact-button" class="right-navButtons">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>Send</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-248.000000, -2024.000000)" fill="#2E4063">
+            <path d="M258.565331,2046.85061 C258.384772,2047.05242 258.2384,2047.43462 258.2384,2047.71458 L258.2384,2050.27689 C258.2384,2050.83197 258.508197,2050.9194 258.835316,2050.47982 L260.006446,2048.90604 C260.169746,2048.68659 260.493474,2048.62855 260.72605,2048.77422 L265.625065,2051.84271 C266.091548,2052.13489 266.627077,2051.95273 266.822591,2051.43214 L275.408075,2028.57177 C275.602967,2028.05284 275.380472,2027.86647 274.91305,2028.15431 L252.38583,2042.0266 C251.917544,2042.31497 251.908609,2042.81439 252.343287,2043.1259 L256.2878,2045.95274 C256.511172,2046.11282 256.849689,2046.09336 257.05438,2045.89934 L271.874499,2031.85195 C272.274811,2031.47251 272.299379,2031.50016 271.925932,2031.91756 L258.565331,2046.85061 Z" id="Send"></path>
+        </g>
+    </g>
+</svg>
+    <span>Matt Ao</span>
+  </a>
+
+  <a id="closeButton" class="UnpressedButton"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" class="svg replaced-svg">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>CircleFilledClose</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-508.000000, -882.000000)" fill="#2E4063">
+            <path d="M526.828427,898 L530.363345,894.465082 C530.756666,894.071761 530.751519,893.437811 530.357336,893.043628 L528.956372,891.642664 C528.556139,891.24243 527.925782,891.245791 527.534918,891.636655 L524,895.171573 L520.465082,891.636655 C520.071761,891.243334 519.437811,891.248481 519.043628,891.642664 L517.642664,893.043628 C517.24243,893.443861 517.245791,894.074218 517.636655,894.465082 L521.171573,898 L517.636655,901.534918 C517.243334,901.928239 517.248481,902.562189 517.642664,902.956372 L519.043628,904.357336 C519.443861,904.75757 520.074218,904.754209 520.465082,904.363345 L524,900.828427 L527.534918,904.363345 C527.928239,904.756666 528.562189,904.751519 528.956372,904.357336 L530.357336,902.956372 C530.75757,902.556139 530.754209,901.925782 530.363345,901.534918 L526.828427,898 L526.828427,898 Z M524,911 C531.179702,911 537,905.179702 537,898 C537,890.820298 531.179702,885 524,885 C516.820298,885 511,890.820298 511,898 C511,905.179702 516.820298,911 524,911 L524,911 Z" id="CircleFilledClose"></path>
+        </g>
+    </g>
+</svg></a>
+
+  <!-- BODY START -->
+  <div id="sidepanelBody"></div>
+</div>
+
+
+<div id="main">
+  <div id="circles" style="width: 1400px;"><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(238, 64, 53); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(243, 119, 54); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(252, 236, 77); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(123, 192, 67); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(0, 150, 136); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 1; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><svg class="pie" opacity="1.0" id="progressUnit" style="margin: 2px; width: 31px; height: 31px;"><circle cx="15.5" cy="15.5" r="15.5" id="progressBackground" fill="#0392cf" fill-opacity="0.25"></circle><path d="M0,0 v-15.5 A15.5,15.5 1 1,0 11.23428820205136,-10.678987245673142z" transform="translate(15.5,15.5)" id="progressForeground" fill="#0392cf"></path></svg><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div><div class="circle" style="background-color: rgb(3, 146, 207); opacity: 0.25; border-radius: 50%; margin: 2px; width: 31px; height: 31px;"></div></div>
+  <div id="app">
+  
+  <div class="timerTitleBlack" id="timerTitle"></div>
+
+  
+  <div class="timerContainer whiteText">
+    
+    <div id="yearContainer" class="timerUnitContainer">
+      <div id="year-number" class="timer-value timer">23</div>
+      <div class="timer-label">YEARS</div>
+    </div>
+    
+    
+    <div id="monthContainer" class="timerUnitContainer">
+      <div id="month-number" class="timer-value timer">04</div>
+      <div class="timer-label">MONTHS</div>
+    </div>
+    
+    
+    <div id="dayContainer" class="timerUnitContainer">
+      <div id="day-number" class="timer-value timer">27</div>
+      <div class="timer-label">DAYS</div>
+    </div>
+    
+    
+    <div id="hourContainer" class="timerUnitContainer">
+      <div id="hour-number" class="timer-value timer">15</div>
+      <div class="timer-label">HOURS</div>
+    </div>
+    
+    
+    <div id="minContainer" class="timerUnitContainer">
+      <div id="minute-number" class="timer-value timer">05</div>
+      <div class="timer-label">MINUTES</div>
+    </div>
+    
+    
+    <div id="secContainer" class="timerUnitContainer">
+      <div id="second-number" class="timer-value timer">32</div>
+      <div class="timer-label" id="seconds-label">SECONDS</div>
+    </div>
+    
+    
+    <div id="msContainer" class="timerUnitContainer">
+      <div id="milli-number" class="timer-value timer">20</div>
+      <div class="timer-label">MS</div>
+    </div>
+    
+	</div>
+</div>
+
+  <div id="menu-button" class="WhiteMenu"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 32 32" version="1.1" id="menu-svg" class="svg replaced-svg">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-508.000000, -1608.000000)" fill="#2E4063">
+            <path d="M513,1616.50468 C513,1616.22595 513.217742,1616 513.500836,1616 L534.499164,1616 C534.775768,1616 535,1616.21404 535,1616.50468 L535,1617.49532 C535,1617.77405 534.782258,1618 534.499164,1618 L513.500836,1618 C513.224232,1618 513,1617.78596 513,1617.49532 L513,1616.50468 Z M513,1630.50468 C513,1630.22595 513.217742,1630 513.500836,1630 L534.499164,1630 C534.775768,1630 535,1630.21404 535,1630.50468 L535,1631.49532 C535,1631.77405 534.782258,1632 534.499164,1632 L513.500836,1632 C513.224232,1632 513,1631.78596 513,1631.49532 L513,1630.50468 Z M513,1623.50468 C513,1623.22595 513.217742,1623 513.500836,1623 L534.499164,1623 C534.775768,1623 535,1623.21404 535,1623.50468 L535,1624.49532 C535,1624.77405 534.782258,1625 534.499164,1625 L513.500836,1625 C513.224232,1625 513,1624.78596 513,1624.49532 L513,1623.50468 Z" id="Menu"></path>
+        </g>
+    </g>
+</svg>
+    <div id="updateBadge" style="display: none;"></div>
+  </div>
+  <div id="update-bubble" style="display: none;">
+    <div id="update-bubble-text">Mortality has been updated,<br>
+    check out the changes here!</div>
+  </div>
+</div>
+
+<script id="clock-template" type="text/x-handlebars-template">
+  <div class="timerContainer">
+    {{#if white}}
+    <div class="clock" id="white-timer-clock">{{hour}}{{minute}}{{second}}{{ms}} {{ampm}}</div>
+    {{/if}}
+    {{#if black}}
+    <div class="clock" id="black-timer-clock">{{hour}}{{minute}}{{second}}{{ms}} {{ampm}}</div>
+    {{/if}}
+  </div>
+</script>
+
+<script id="timeup-template" type="text/x-handlebars-template">
+  <div class="timerContainer">
+    {{#if white}}
+    <div class="timeup" id="white-timeup">{{message}}</div>
+    {{/if}}
+    {{#if black}}
+    <div class="timeup" id="black-timeup">{{message}}</div>
+    {{/if}}
+  </div>
+</script>
+
+<script id="age-template" type="text/x-handlebars-template">
+  {{#if white}}<div class="timerTitleWhite" id="timerTitle">{{title}}</div>{{/if}}
+  {{#if black}}<div class="timerTitleBlack" id="timerTitle">{{title}}</div>{{/if}}
+
+  {{#if white}}<div class="timerContainer blackText">{{/if}}
+  {{#if black}}<div class="timerContainer whiteText">{{/if}}
+    {{#if year}}
+    <div id="yearContainer" class="timerUnitContainer">
+      <div id='year-number' class="timer-value timer">{{year}}</div>
+      <div class='timer-label'>YEARS</div>
+    </div>
+    {{/if}}
+    {{#if month}}
+    <div id="monthContainer" class="timerUnitContainer">
+      <div id='month-number' class="timer-value timer">{{month}}</div>
+      <div class='timer-label'>MONTHS</div>
+    </div>
+    {{/if}}
+    {{#if day}}
+    <div id="dayContainer" class="timerUnitContainer">
+      <div id='day-number' class="timer-value timer">{{day}}</div>
+      <div class='timer-label'>DAYS</div>
+    </div>
+    {{/if}}
+    {{#if hour}}
+    <div id="hourContainer" class="timerUnitContainer">
+      <div id='hour-number' class="timer-value timer">{{hour}}</div>
+      <div class='timer-label'>HOURS</div>
+    </div>
+    {{/if}}
+    {{#if minute}}
+    <div id="minContainer" class="timerUnitContainer">
+      <div id='minute-number' class="timer-value timer">{{minute}}</div>
+      <div class='timer-label'>MINUTES</div>
+    </div>
+    {{/if}}
+    {{#if second}}
+    <div id="secContainer" class="timerUnitContainer">
+      <div id='second-number' class="timer-value timer">{{second}}</div>
+      <div class='timer-label' id='seconds-label'>SECONDS</div>
+    </div>
+    {{/if}}
+    {{#if ms}}
+    <div id="msContainer" class="timerUnitContainer">
+      <div id='milli-number' class="timer-value timer">{{ms}}</div>
+      <div class='timer-label'>MS</div>
+    </div>
+    {{/if}}
+	</div>
+</script>
+
+<script id="about-template" type="text/x-handlebars-template">
+  <img id="banner" src="assets/popup.png">
+  <hr id="banner-hr">
+  <div id="aboutContainer">
+    <div id="aboutContent">
+      Mortality is a new tab extension that reminds you of your precise age.<br>
+      A bitter-sweet motivational tool; it illustrates how little time we have.<br>
+      By default, circles represent months, for the average lifespan of 78 years.<br>
+      As you age, the circles fill, and are split into the main Chapters of your life.<br>
+      <br><br>
+
+      Get busy living, or get busy dying.<br>
+      You can never go back :)
+    </div>
+    <br><br><br>
+    <div id="uninstallHeader">How To Uninstall:</div>
+    <div id="uninstallText">Enter in your address bar: "chrome://extensions"<br> Find mortality, and click on the trash can icon on the right</div>
+  </div>
+  <label id="link-label" for="link-input">I'm not a fan of pre-canned share posts<br>If you would like to support this extension, please share this link:</label>
+  <input id="link-input" type="text" value="http://goo.gl/vADzdb" class="field left" readonly>
+</script>
+
+<script id="updates-template" type="text/x-handlebars-template">
+  <div id="updatesContainer">
+    <div id="updatesContent">
+      <div class="version">Feedback is Appreciated ^^</div>
+      <br>
+      <div id="v5.2.0" class="version">Version 5.2.0 [1/6/2018]</div>
+      <ul>
+        <li>Happy new year!  The backlog has gotten quite massive over the last (almost) year. I haven't been able to fix everything, but I tried to pick some of the popular requests to keep the extension fresh for you guys.  Hope you enjoy :)</li>
+        <li>You can now make it so each row of your progress will represent a year</li>
+        <li>Fixed issues with day/week calculations, week progress now fills in (seemingly) perfectly</li>
+        <li>Your projected final date is now displayed under the survey</li>
+        <li>You can now view total global population</li>
+        <li>Other bugfixes and enhancements, thanks again for the 30+ people submitting feedback :)</li>
+      </ul>
+      <div id="v5.1.1" class="version">Patch 5.1.1 [3/19/2017]</div>
+      <ul>
+        <li>Accidentally broke theme changing.  Oops</li>
+        <li>Small bugfixes and enhancements</li>
+      </ul>
+      <div id="v5.1.0" class="version">Version 5.1.0 [3/12/2017]</div>
+      <ul>
+        <li>"Largest Precision" let's you choose the largest unit to display in the timer</li>
+        <li>"Smallest Precision" now has "Decimal", if you prefer seeing a single number</li>
+        <li>More bugfixes from reports ya'll have sent in</li>
+        <li>This version has a higher risk for bugs (spent less time testing), if I could ask for your time, please <a id="escLink" target="_blank" href="https://mortality.uservoice.com">report a bug</a> if you see it</li>
+      </ul>
+      <div id="v5.0.6" class="version">Patch 5.0.6 [3/6/2017]</div>
+      <ul>
+        <li>A lot of you were asking for it, so I pushed out a quick implementation-- You can now add a title to your timer</li>
+      </ul>
+      <div id="v5.0.5" class="version">Patch 5.0.5 [3/5/2017]</div>
+      <ul>
+        <li>Update popover annoying you?  New setting to hide it</li>
+        <li>Fixed a few bugs you folks have reported.  Sorry it's taken so long to patch</li>
+        <li>Setting to use full screen for life progress</li>
+        <li>Note that my uservoice account has expired, so I cannot reply to bug tickets.  I can however, still add comments to feature requests, so keep 'em coming :)</li>
+      </ul>
+      <div id="v5.0.4" class="version">Patch 5.0.4 [2/13/2017]</div>
+      <ul>
+        <li>Sorry for the frequent updates, in the future I'll fix more things at once so ya'll don't get bothered.  This font thing has just been a pain</li>
+        <li>New setting for larger font.  May need to add more settings to customize font in the future, based off of the feedback</li>
+      </ul>
+      <div id="v5.0.3" class="version">Patch 5.0.3 [2/11/2017]</div>
+      <ul>
+        <li>Got my hands on a Windows machine (thanks for the screenshots, as well)</li>
+        <li>Removed the text stroking, replaced with shadow.  <a id="escLink" target="_blank" href="https://gist.github.com/dalethedeveloper/1846552">Unfortunately stroking just looks bad on Windows</a></li>
+        <li>From suggestions, slightly bumped up the font sizes across the board, as well.  If it's too big, let me know.  In that case, I'll have to throw in a setting for that</li>
+        <li>Couple more bug fixes, keep the reports coming!</li>
+      </ul>
+      <div id="v5.0.2" class="version">Patch 5.0.2 [2/11/2017]</div>
+      <ul>
+        <li>Moved off of google support.  Please to go <a id="escLink" target="_blank" href="https://mortality.uservoice.com">mortality.uservoice.com</a> to submit feature requests or bug reports</li>
+        <li>Fixed a couple bugs you folks found, thanks again for the help :)</li>
+        <li>Still tweaking the font a little.  Please keep up the feedback!  I'm especially concerned about how it looks on Windows machines</li>
+      </ul>
+      <div id="v5.0.1" class="version">Patch 5.0.1 [2/10/2017]</div>
+      <ul>
+        <li>A lot of feedback coming in that the font is too small<br>
+        So I wanted to release a patch ASAP<br>
+        I think it may be a Windows thing?  But I tweaked it a little <br>
+        Let me know if it needs more, screenshots and specific preferences help a lot</li>
+      </ul>
+      <div id="v5.0.0" class="version">Major Version 5 [2/10/2017]</div>
+      <ul>
+        <li>NOTE: I changed the backend, so I may have lost some settings.  Sorry 😕</li>
+        <li>NOTE2: I also fear I introduced some bugs.  <a id="escLink" target="_blank" href="https://mortality.uservoice.com">Please report them</a>, and I'll fix ASAP</li>
+        <li>Totally re-skinned the settings, custom controls everywhere!</li>
+        <li>Specify the length of time a circle represents</li>
+        <li>Check out how many people are older or younger than you on Earth</li>
+        <li>Life progress now calculates to fill the entire window</li>
+        <li>Specify how many years you want to live</li>
+        <li>Specify how many chapters you have</li>
+        <li>24-hour time</li>
+        <li>Fixed bugs reported through the Google Feedback</li>
+      </ul>
+      <div id="v4.1.0" class="version">Version 4.1.0 [10/31/2016]</div>
+      <ul>
+        <li>You can make the Countdown count daily to a specific time, or something like the end of the workday.</li>
+        <li>You can now choose a Time Up Message.</li>
+        <li>Couple of bug fixes that came through from yesterday, Thanks for the bug reports and feedback!</li>
+        <li>I'll make the UX bareable soon, sit tight :)</li>
+      </ul>
+      <div id="v4.0.0" class="version">Major Version 4 [10/30/2016]</div>
+      <ul>
+        <li>This is a big one, added the highly requested Countdown.</li>
+        <li>There is a new panel where you can toggle it ON/OFF.</li>
+        <li>Fill out a survey to guess your deathdate, Data is pulled from World Health Organization.</li>
+        <li>Or specify an exact date if you have a deadline, event, or if you have an idea of when you're gonna die.</li>
+        <li>Fixed a lot of edge cases with the month/day calculation, Thanks to everyone who gave feedback on bugs!</li>
+        <li>It's very likely I am still missing edge cases, I promise I'll be more active on fixing those quickly :)</li>
+        <li>Yes sorry I know my UX is horrible.  You'll figure it out ^^</li>
+        <li>I kinda rushed to push this out, but will polish soon.</li>
+        <li>#agile</li>
+      </ul>
+      <div id="v3.4.2" class="version">Version 3.4.2 [11/12/2015]</div>
+      <ul>
+        <li>Bugs fixed with month/day calculations from last release-- though I may have missed some cases, please let me know if your age doesn't seem right.</li>
+        <li>I have been watching the surveys!  Default is now Dark.</li>
+        <li>I'm changing the themes again in the next release, so if you would like changes, please fill out the survey below.</li>
+      </ul>
+      <div id="v3.4.1" class="version">Version 3.4.1 [11/11/2015]</div>
+      <ul>
+        <li>I want to update themes!  Please fill out <a href="http://goo.gl/forms/61S5Mr3g65">this survey</a>.</li>
+        <li>Numbers now pop when they go up.</li>
+        <li>Months & Days now what you expect.</li>
+        <li>Updated font styling.</li>
+        <li>Fixed a few bugs you guys found :)</li>
+      </ul>
+      <div id="v3.3.1" class="version">Version 3.3.1 [5/16/2015]</div>
+      <ul>
+        <li>Fix for issue with positive timezone offsets from UTC.</li>
+      </ul>
+      <div id="v3.3.0" class="version">Version 3.3.0 [4/5/2015]</div>
+      <ul>
+        <li>You can now show squares instead of circles for Chapters.</li>
+        <li>Fix settings sizing for smaller screens.</li>
+        <li>Add Cupid, Rasta, Sky themes. Changed Retro again.</li>
+        <li>Rephrase settings for clarity.</li>
+        <li>Added an update bubble.</li>
+      </ul>
+      <div id="v3.2.0" class="version">Version 3.2.0 [3/26/2015]</div>
+      <ul>
+        <li>Actually following reasonable version numbers now.</li>
+        <li>Ability to specify precision of your age.</li>
+        <li>Can hide circles.</li>
+        <li>Can show current time instead of your age.</li>
+        <li>Added fields to allow you to change the length of your chapters.</li>
+        <li>Added an eighth chapter, it is defaulted to 0 years.</li>
+        <li>Update Themes.</li>
+        <li>Refactoring to decrease burden of computations.</li>
+      </ul>
+      <div id="v3.0.0" class="version">Major Version 3 [1/8/2015]</div>
+      <ul>
+        <li>Fix for the current month circle filling the wrong way.</li>
+        <li>Add the ability to remove the age timer.</li>
+        <li>Fix for cancel button inconsistency.</li>
+        <li>Changing formatting for settings & info.</li>
+      </ul>
+      <div id="v2.0.0" class="version">Major Version 2 [12/25/2014]</div>
+      <ul>
+        <li>Ability to add time to birth date.</li>
+        <li>Cancel button in settings.</li>
+        <li>Info button on bottom left.</li>
+        <li>Info popup you are looking at right now.</li>
+        <li>Fix for leap days miscalculating age.</li>
+        <li>Make "Retro" less ugly. If you have a theme idea let me know.</li>
+      </ul>
+      <div id="v1.0.0" class="version">Major Version 1 [12/20/2014]</div>
+      <ul>
+        <li>Add birthday.</li>
+        <li>Circles indicating months lived.</li>
+        <li>Circles split into chapters.</li>
+        <li>Themes added.</li>
+      </ul>
+    </div>
+  </div>
+</script>
+
+<script id="theme-template" type="text/x-handlebars-template">
+  <div id="theme-container">
+    <div id="themeSelectContainer">
+      <label id="themeSelectLabel" for="themeSelectDropdown">Select Theme</label>
+      <select id="themeSelectDropdown" class="cs-select cs-skin-elastic">
+        <option value="default">Default</option>
+        <option value="light">Light</option>
+        <option value="dawn">Dawn</option>
+        <option value="dusk">Dusk</option>
+        <option value="twilight">Twilight</option>
+        <option value="retro">Retro</option>
+        <option value="rainbowd">Rainbow-Dark</option>
+        <option value="rainbowl">Rainbow-Light</option>
+        <option value="cupid">Cupid</option>
+        <option value="rasta">Rasta</option>
+        <option value="sky">Sky</option>
+      </select>
+    </div>
+    <br><br>
+    Create-your-own-themes coming soon! 😀<br>
+    Note that these default themes come with 8 colors.  <br>
+    So for now, you can really only have 8 chapters specified.  <br>
+    Beyond that and it just repeats the last color ☹️
+  </div>
+</script>
+
+<script id="settings-template" type="text/x-handlebars-template">
+  <div id="settingsContainer">
+    <div id="timerSettingsSegmentedControl" class="segmented-control">
+      <input type="radio" name="sc-3-1" id="sc-3-1-1" checked="">
+      <input type="radio" name="sc-3-1" id="sc-3-1-2">
+      <input type="radio" name="sc-3-1" id="sc-3-1-3">
+      <label for="sc-3-1-1" data-value="Time Spent"">Time Spent</label>
+      <label for="sc-3-1-2" data-value="Time Left">Time Left</label>
+      <label for="sc-3-1-3" data-value="Extras">Extras</label>
+    </div>
+
+    <div id="extraTimerSettingsSegmentedControl" class="segmented-control">
+      <input type="radio" name="sc-3-2" id="sc-3-2-1" checked="">
+      <input type="radio" name="sc-3-2" id="sc-3-2-2">
+      <input type="radio" name="sc-3-2" id="sc-3-2-3">
+      <label for="sc-3-2-1" data-value="Clock">Clock</label>
+      <label for="sc-3-2-2" data-value="People">People</label>
+      <label for="sc-3-2-3" data-value="Hide">Hide</label>
+    </div>
+    <div id="timerSettingsGap"></div>
+    <div id="timerTypeSettingsContainer">
+      <div id="spentTimerContainer">
+      <div id="onboardingText"><div>Oh, Hello there.</div><div>Input your Birth Date to get started.</div></div>
+        <div id="dobDateContainer" class="notRed">
+          <label id="dobLabel" for="dobInput">When were you born?</label>
+          <input id="dobInput" class="InputTextfield" type="date">
+        </div>
+
+        <div id="dobTimeContainer">
+          <div id="dobTimeCheckboxContainer">
+            <input id="dobTimeCheckbox" class="magic-checkbox" type="checkbox">
+            <label for="dobTimeCheckbox">Add Time</label>
+          </div>
+          <input id="dobTimeInput" class="InputTextfield" type="time">
+        </div>
+
+        <div id="idealDeathContainer">
+          <label id="idealDeathLabel" for="idealDeathInput">How many years would you like to live?</label>
+          <input type="number" id="idealDeathInput" min="0" max="200" value="0">
+        </div>
+
+        <div id="timerTitleContainer">
+          <label id="timerTitleLabel" for="timerTitleInput">Title for Timer</label>
+          <input id="timerTitleInput" class="InputTextfield" type="text">
+        </div>
+      </div>
+
+      <div id="leftTimerContainer">
+        <div id="specifyDeathCheckboxContainer">
+          <input id="takeSurveyCheckbox" class="magic-checkbox" type="checkbox">
+          <label for="takeSurveyCheckbox">Take Life Expectancy Survey</label>
+        </div>
+
+        <div id="surveyUnitsSegmentedControl" class="segmented-control">
+          <input type="radio" name="sc-2-2" id="sc-2-2-1" checked="">
+          <input type="radio" name="sc-2-2" id="sc-2-2-2">
+          <label for="sc-2-2-1" data-value="Imperial">Imperial</label>
+          <label for="sc-2-2-2" data-value="Metric">Metric</label>
+        </div>
+
+        <div id="specifyDeathContainer">
+          <div id="dodDateContainer">
+            <label id="dodLabel" for="dodInput">Deadline?</label>
+            <input id="dodInput" class="InputTextfield" type="date">
+          </div>
+
+          <div id="dodTimeContainer">
+            <div id="dodTimeCheckboxContainer">
+              <input id="dodTimeCheckbox" class="magic-checkbox" type="checkbox">
+              <label for="dodTimeCheckbox">Add Time</label>
+            </div>
+            <input id="dodTimeInput" class="InputTextfield" type="time">
+          </div>
+
+          <div id="dailyCountdownCheckboxContainer">
+            <input id="dailyCountdownCheckbox" class="magic-checkbox" type="checkbox">
+            <label for="dailyCountdownCheckbox">Daily Countdown to This Time</label>
+          </div>
+        </div>
+
+        <div id="surveyDeathContainer">
+
+
+
+
+          <div class="surveyQuestionContainer">
+            <div>
+              <label id="gender-label" class="surveyQuestionLabel" for="gender-dropdown">Gender?</label>
+              <select id="gender-dropdown" class="surveyQuestionDropdown">
+                <option value="DNE"></option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="surveyQuestionContainer">
+            <div>
+              <label id="ethnicity-label" class="surveyQuestionLabel" for="ethnicity-dropdown">Ethnicity?</label>
+              <select id="ethnicity-dropdown" class="surveyQuestionDropdown">
+                <option value="DNE"></option>
+                <option value="asian">Asian or Arabic</option>
+                <option value="black">Black</option>
+                <option value="latino">Latin American</option>
+                <option value="native">Native American</option>
+                <option value="white">White</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="surveyQuestionContainer">
+            <div>
+              <label id="drinking-label" class="surveyQuestionLabel" for="precision-dropdown">How often do you drink?</label>
+              <select id="drinking-dropdown" class="surveyQuestionDropdown">
+                <option value="DNE"></option>
+                <option value="never">Never</option>
+                <option value="monthly">~1 Month</option>
+                <option value="weekly">~1 Week</option>
+                <option value="daily">~1 Day</option>
+                <option value="alcoholic">Alcoholic</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="surveyQuestionContainer">
+            <div>
+              <label id="smoking-label" class="surveyQuestionLabel" for="precision-dropdown">How often do you smoke?</label>
+              <select id="smoking-dropdown" class="surveyQuestionDropdown">
+                <option value="DNE"></option>
+                <option value="never">Never</option>
+                <option value="monthly">~1 Pack/Month</option>
+                <option value="weekly">~1 Pack/Week</option>
+                <option value="daily">~1 Pack/Day</option>
+                <option value="drinking">Only when drinking</option>
+                <option value="marijuana">tree fiddy</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="surveyQuestionContainer">
+            <div>
+              <label id="exercise-label" class="surveyQuestionLabel" for="precision-dropdown">How often do you exercise?</label>
+              <select id="exercise-dropdown" class="surveyQuestionDropdown">
+                <option value="DNE"></option>
+                <option value="fiveplus">5+ Times/Week</option>
+                <option value="threefour">3-4 Times/Week</option>
+                <option value="onetwo">~1-2 Times/Week</option>
+                <option value="rarely">Rarely</option>
+                <option value="never">Never</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="surveyQuestionContainer">
+            <div id="height-label" class="surveyQuestionLabel">How tall are you?</div>
+            <div id="heightMetricContainer" class="surveyQuestionDropdown">
+              <div id="heightCM-container">
+                <label id="heightCM-label" class="surveyQuestionLabel" for="heightCM-dropdown">cm</label>
+                <select id="heightCM-dropdown" class="surveyQuestionIntegerDropdown">
+                  <option value="DNE"></option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                  <option value="32">32</option>
+                  <option value="33">33</option>
+                  <option value="34">34</option>
+                  <option value="35">35</option>
+                  <option value="36">36</option>
+                  <option value="37">37</option>
+                  <option value="38">38</option>
+                  <option value="39">39</option>
+                  <option value="40">40</option>
+                  <option value="41">41</option>
+                  <option value="42">42</option>
+                  <option value="43">43</option>
+                  <option value="44">44</option>
+                  <option value="45">45</option>
+                  <option value="46">46</option>
+                  <option value="47">47</option>
+                  <option value="48">48</option>
+                  <option value="49">49</option>
+                  <option value="50">50</option>
+                  <option value="51">51</option>
+                  <option value="52">52</option>
+                  <option value="53">53</option>
+                  <option value="54">54</option>
+                  <option value="55">55</option>
+                  <option value="56">56</option>
+                  <option value="57">57</option>
+                  <option value="58">58</option>
+                  <option value="59">59</option>
+                  <option value="60">60</option>
+                  <option value="61">61</option>
+                  <option value="62">62</option>
+                  <option value="63">63</option>
+                  <option value="64">64</option>
+                  <option value="65">65</option>
+                  <option value="66">66</option>
+                  <option value="67">67</option>
+                  <option value="68">68</option>
+                  <option value="69">69</option>
+                  <option value="70">70</option>
+                  <option value="71">71</option>
+                  <option value="72">72</option>
+                  <option value="73">73</option>
+                  <option value="74">74</option>
+                  <option value="75">75</option>
+                  <option value="76">76</option>
+                  <option value="77">77</option>
+                  <option value="78">78</option>
+                  <option value="79">79</option>
+                  <option value="80">80</option>
+                  <option value="81">81</option>
+                  <option value="82">82</option>
+                  <option value="83">83</option>
+                  <option value="84">84</option>
+                  <option value="85">85</option>
+                  <option value="86">86</option>
+                  <option value="87">87</option>
+                  <option value="88">88</option>
+                  <option value="89">89</option>
+                  <option value="90">90</option>
+                  <option value="91">91</option>
+                  <option value="92">92</option>
+                  <option value="93">93</option>
+                  <option value="94">94</option>
+                  <option value="95">95</option>
+                  <option value="96">96</option>
+                  <option value="97">97</option>
+                  <option value="98">98</option>
+                  <option value="99">99</option>
+                </select>
+              </div>
+
+              <div id="heightMeters-container">
+                <label id="heightMeters-label" class="surveyQuestionLabel" for="heightMeters-dropdown">Meters</label>
+                <select id="heightMeters-dropdown" class="surveyQuestionIntegerDropdown">
+                  <option value="DNE"></option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </div>
+            </div>
+            <div id="heightDropdownContainer" class="surveyQuestionDropdown">
+              <div id="heightInches-container">
+                <div>
+                  <label id="heightInches-label" class="surveyQuestionLabel" for="heightInches-dropdown">Inches</label>
+                  <select id="heightInches-dropdown" class="surveyQuestionIntegerDropdown">
+                    <option value="DNE"></option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                  </select>
+                </div>
+              </div>
+
+              <div id="heightFeet-container">
+                <div>
+                  <label id="heightFeet-label" class="surveyQuestionLabel" for="heightFeet-dropdown">Feet</label>
+                  <select id="heightFeet-dropdown" class="surveyQuestionIntegerDropdown">
+                    <option value="DNE"></option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="surveyQuestionContainer">
+            <div id="imperialWeightContainer">
+              <label for="weightTextfield" class="surveyQuestionLabel">How much do you weigh? <b>(lbs)</b></label>
+              <input type="number" id="weightTextfield" min="0" max="500">
+            </div>
+            <div id="metricWeightContainer">
+              <label for="metricWeightTextfield" class="surveyQuestionLabel">How much do you weigh? <b>(kg)</b></label>
+              <input type="number" id="metricWeightTextfield" min="0" max="500">
+            </div>
+          </div>
+
+          <div class="surveyQuestionContainer">
+            <div class="checkbox">
+              <input id="heartDisease-checkbox" class="right-magic-checkbox" type="checkbox">
+              <label for="heartDisease-checkbox" id="heartDisease-label">Family have a history of heart disease?</label>
+            </div>
+          </div>
+
+          <div class="surveyQuestionContainer">
+            <div class="checkbox">
+              <input id="clumsiness-checkbox" class="right-magic-checkbox" type="checkbox">
+              <label for="clumsiness-checkbox" id="clumsiness-label">Clumsy?</label>
+            </div>
+          </div>
+
+          <div>
+            <u>Your Projected Final Date:</u>
+            <br>
+            <span id="deathDateString"></span>
+          </div>
+          <br>
+          <font size="1"><i>*Rough life expectency data from the <a id="escLink" target="_blank" href="http://apps.who.int/gho/data/node.main.686?lang=en">World Health Organization</a></i></font>
+
+
+
+
+        </div>
+
+        <div id="timeupMessageContainer">
+          <label id="timeupMessageLabel" for="timeupMessageDropdown">Message When Time is Up:</label>
+          <select id="timeupMessageDropdown" class="cs-select cs-skin-elastic">
+            <option value="¯\_(ツ)_/¯">¯\_(ツ)_/¯</option>
+            <option value="Time's Up.">Time's Up.</option>
+            <option value="TIME IS UP">TIME IS UP</option>
+            <option value="YOU DONE">YOU DONE</option>
+            <option value="(ಠ_ಠ)">(ಠ_ಠ)</option>
+            <option value="(• ε •)">(• ε •)</option>
+            <option value="(⊙ω⊙)">(⊙ω⊙)</option>
+            <option value="(╥﹏╥)">(╥﹏╥)</option>
+            <option value="( •᷄ὤ•᷅)">( •᷄ὤ•᷅)</option>
+            <option value="ლ(ಠ益ಠლ)">ლ(ಠ益ಠლ)</option>
+            <option value="(ﾉಥДಥ)ﾉ">(ﾉಥДಥ)ﾉ</option>
+            <option value="(´༎ຶ ω ༎ຶ`)">(´༎ຶ ω ༎ຶ`)</option>
+            <option value="(╯°□°)╯︵ ┻━┻">(╯°□°)╯︵ ┻━┻</option>
+            <option value="IT'S HAPPENING">IT'S HAPPENING</option>
+            <option value="ヽ(´▽`)/">ヽ(´▽`)/</option>
+            <option value="(☞ﾟヮﾟ)☞">(☞ﾟヮﾟ)☞</option>
+            <option value="ᕕ( ᐛ )ᕗ">ᕕ( ᐛ )ᕗ</option>
+          </select>
+        </div>
+
+        <div id="timerTitleContainer2">
+          <label id="timerTitleLabel2" for="timerTitleInput2">Title for Timer</label>
+          <input id="timerTitleInput2" class="InputTextfield" type="text">
+        </div>
+
+
+      </div>
+
+      <div id="clockTimerContainer">
+          <div id="twentyFourCheckboxContainer">
+            <input id="twentyFourCheckbox" class="magic-checkbox" type="checkbox">
+            <label for="twentyFourCheckbox">24-Hour Time</label>
+          </div>
+      </div>
+
+      <div id="peopleTimerContainer">
+        <ul id="peopleTimerList" class="mortalityRadioUL">
+          <li class="circleRadio">
+            <input type="radio" id="olderOption" name="peopleSelector">
+            <label for="olderOption">Older:</label>
+            <div class="check"></div>
+          </li>
+          <li class="circleRadio">
+            <input type="radio" id="youngerOption" name="peopleSelector">
+            <label for="youngerOption">Younger:</label>
+            <div class="check"></div>
+          </li>
+          <li class="circleRadio">
+            <input type="radio" id="totalOption" name="peopleSelector">
+            <label for="totalOption">Total:</label>
+            <div class="check"></div>
+          </li>
+        </ul>
+        <br><br>
+        <font size="1"><i>*Population data from <a id="escLink" target="_blank" href="https://esa.un.org/unpd/wpp/">United Nations, Population Division</a></i></font>
+
+      </div>
+    </div>
+    <div id="precisionContainer">
+      <div id="timerPrecisionContainer">
+        <div id="smallestPrecisionContainer">
+          <label id="precisionLabel" for="timerPrecisionDropdown">Smallest Precision</label>
+          <select id="timerPrecisionDropdown" class="cs-select cs-skin-elastic">
+            <option value="year">Years</option>
+            <option value="month">Months</option>
+            <option value="day">Days</option>
+            <option value="hour">Hours</option>
+            <option value="min">Minutes</option>
+            <option value="sec">Seconds</option>
+            <option value="ms">Milliseconds</option>
+            <option value="decimal">Use Decimal</option>
+          </select>
+        </div>
+        <div id="decimalPrecisionCheckboxContainer">
+          <input id="decimalPrecisionCheckbox" class="magic-checkbox" type="checkbox">
+          <label for="decimalPrecisionCheckbox">Extend Decimal Precision</label>
+        </div>
+        <div id="largestPrecisionContainer">
+          <label id="largestPrecisionLabel" for="largestPrecisionDropdown">Largest Precision</label>
+          <select id="largestPrecisionDropdown" class="cs-select cs-skin-elastic">
+            <option value="year">Years</option>
+            <option value="month">Months</option>
+            <option value="day">Days</option>
+            <option value="hour">Hours</option>
+            <option value="min">Minutes</option>
+            <option value="sec">Seconds</option>
+          </select>
+        </div>
+      </div>
+      <div id="clockPrecisionContainer">
+        <label id="precisionLabel" for="clockPrecisionDropdown">Clock Precision</label>
+        <select id="clockPrecisionDropdown" class="cs-select cs-skin-elastic">
+          <option value="ms">Milliseconds</option>
+          <option value="sec">Seconds</option>
+          <option value="min">Minutes</option>
+          <option value="hour">Hours</option>
+        </select>
+      </div>
+      <div id="populationPrecisionContainer">
+        <label id="precisionLabel" for="populationPrecisionDropdown">Population Precision</label>
+        <select id="populationPrecisionDropdown" class="cs-select cs-skin-elastic">
+          <option value="one">1's</option>
+          <option value="ten">10's</option>
+          <option value="hund">100's</option>
+          <option value="thou">1,000's</option>
+          <option value="tenthou">10,000's</option>
+          <option value="hundthou">100,000's</option>
+          <option value="milo">1,000,000's</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="largeFontCheckboxContainer">
+      <input id="largeFontCheckbox" class="magic-checkbox" type="checkbox">
+      <label for="largeFontCheckbox">Large Font</label>
+    </div>
+
+    <hr class="settingsContainerHR">
+
+
+    <div id="chapterSettingsLabelContainer">
+      <div id="chapterSettingsLabel">Chapters of Life</div>
+      <span id="openCloseChevron"><img class="svg" src="assets/ChevronCircleUp.svg"></span>
+    </div>
+    <hr id="chapterSettingsHR" class="settingsContainerHR">
+
+    <div id="chapterSettingsContainer">
+
+      <div id="progressSettingsContainer">
+        <div id="hideProgressContainer">
+          <input id="hideProgressCheckbox" class="magic-checkbox" type="checkbox">
+          <label for="hideProgressCheckbox">Hide Progress</label>
+        </div>
+        <div id="shapePickerContainer">
+          <div id="shapePickerLabel">Shape:</div>
+          <ul id="shapePickerList" class="mortalityRadioUL">
+            <li class="circleRadio">
+              <input type="radio" id="circleOption" name="shapeSelector">
+              <label for="circleOption"></label>
+
+              <div class="check"></div>
+            </li>
+
+            <li class="squareRadio">
+              <input type="radio" id="squareOption" name="shapeSelector">
+              <label for="squareOption"></label>
+
+              <div class="check"></div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="noMarginsContainer">
+          <input id="noMarginsCheckbox" class="magic-checkbox" type="checkbox">
+          <label for="noMarginsCheckbox">Remove margins from shapes</label>
+        </div>
+      </div>
+
+      <div id="chapterPrecisionLabel">Chapter Precision</div>
+      <hr class="segmentedControlLabelHR">
+      <div id="chapterPrecisionSegmentedControl" class="segmented-control">
+        <input type="radio" name="sc-4-1" id="sc-4-1-1" checked="">
+        <input type="radio" name="sc-4-1" id="sc-4-1-2">
+        <input type="radio" name="sc-4-1" id="sc-4-1-3">
+        <label for="sc-4-1-1" data-value="Weeks">Weeks</label>
+        <label for="sc-4-1-2" data-value="Months">Months</label>
+        <label for="sc-4-1-3" data-value="Years">Years</label>
+      </div>
+
+      <div id="rowIsYearContainer">
+        <input id="rowIsYearCheckbox" class="magic-checkbox" type="checkbox">
+        <label for="rowIsYearCheckbox">Show one year per row</label>
+      </div>
+
+      <div id="chapterSegmentsLabel">Chapter Lengths</div>
+      <hr class="segmentedControlLabelHR">
+      <div id="chapterLengthSegmentedControl" class="segmented-control">
+        <input type="radio" name="sc-2-1" id="sc-2-1-1" checked="">
+        <input type="radio" name="sc-2-1" id="sc-2-1-2">
+        <label for="sc-2-1-1" data-value="Specify">Specify</label>
+        <label for="sc-2-1-2" data-value="Fixed">Fixed</label>
+      </div>
+
+      <div id="chapterLengthsSpecifyContainer">
+        <div id="chapterLengthsLabelContainer">
+          <div id="chapterLengthsYearsLabel">Years:</div>
+          <div id="chapterLengthsMonthsLabel">Months:</div>
+        </div>
+        <div id="chapterLengthStackView">
+          <div class="chapter">
+            <div id="firstChapterNum" class="chapterNum">1st</div>
+            <input id="firstChapterYearsInput" type="number" class="yearsInput" min="0" max="100">
+            <div id="schoolAgeLabel">AGE You Started School</div>
+          </div>
+        </div>
+        <div id="modifyChaptersContainer">
+          <div id="addChapterButton"><img class="svg" src="assets/Add.svg"></div>
+          <div id="removeChapterButton"><img class="svg" src="assets/Remove.svg"></div>
+        </div>
+      </div>
+      <div id="chapterLengthsFixedContainer">
+          <div id="chapterLengthsFixedYearsLabel">Years:</div>
+          <input type="number" id="fixedYearsInput" min="0" max="100">
+          <div id="chapterLengthsFixedMonthsLabel">Months:</div>
+          <input type="number" id="fixedMonthsInput" min="0" max="11">
+      </div>
+    </div>
+
+    <div id="fullscreenCheckboxContainer">
+      <input id="fullscreenCheckbox" class="magic-checkbox" type="checkbox">
+      <label for="fullscreenCheckbox">Use full screen for life progress</label>
+    </div>
+
+    <div id="hideUpdatesCheckboxContainer">
+      <input id="hideUpdatesCheckbox" class="magic-checkbox" type="checkbox">
+      <label for="hideUpdatesCheckbox">Don't notify me of new updates</label>
+    </div>
+  </div>
+</script>
+
+<script id="donate-template" type="text/x-handlebars-template">
+  <img id="banner" src="assets/catChange.gif">
+  <hr id="banner-hr">
+  <div id="donate-container">
+  <br>
+    So for now, I won't be bothering with donations<br><br>
+
+    If you'd like to help me out, please leave a review <a id="escLink" target="_blank" href="https://chrome.google.com/webstore/detail/mortality-new-tab/eeedcpdcehnikgkhbobmkjcipjhlbmpn">on the webstore</a><br>
+    <br>
+    Also I'm a small business owner, so any "Likes" on either of my businesses (<a id="escLink" target="_blank" href="https://www.facebook.com/ESCTheRoom/">Escape Room</a>, <a id="escLink" target="_blank" href="https://www.facebook.com/nimbusktv/">Karaoke Lounge</a>) would mean a lot as well :)<br><br>
+  <hr id="banner-hr"><br>
+    One of my businesses is an <a id="escLink" target="_blank" href="https://www.esctheroom.com">Escape Room in East Lansing, Michigan</a><br>
+    If you're ever in town, use Promo Code: <b>MORTALITY</b> for 25% off ^^<br><br>
+  <hr id="banner-hr">
+  <br>
+
+  </div>
+</script>
+
+<script src="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/js/jquery-2.1.3.min.js"></script>
+<script src="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/js/moment.min.js"></script>
+<script src="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/js/handlebars.js"></script>
+
+<script src="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/js/classie.js"></script>
+<script src="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/js/selectFx.js"></script>
+<script src="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/js/jquery.magnific-popup.min.js"></script>
+
+<script src="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/js/helpers.js"></script>
+<script src="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/js/accessors.js"></script>
+
+<script src="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/js/sidepanel.js"></script>
+<script src="chrome-extension://eeedcpdcehnikgkhbobmkjcipjhlbmpn/js/mortality.js"></script>
+
+
+
+</body></html>

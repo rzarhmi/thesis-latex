@@ -1,0 +1,36 @@
+<!1,2019082123:03:21>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎\chapter{نتایج تجربی}‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎\section{‎‏مجموعه ‌داده‌ی مورداستفاده}‎‎</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;"></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;"></p>
+<p dir='rtl' style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">مجموعه ‌داده‌ی ‎\‎‏لر{‎NTU-RGB+D‎} ‏بزرگ‌ترین مجموعه ‌داده‌ی شامل اطلاعات ۳بعدی اسکلت بدن است.‎‎\cite{st-gcn}‎‏‎ تصویر ‎‎\ref{fig:ntu}‎‎ برخی از قاب‌های مو‎جود در این مجموعه‌ داده را نمایش ‌می‌دهد. این مجموعه داده شامل 56000 کلیپ و 60 دسته کنش است که از ‎\‎‏لر{‎A1‎}‏ (آشامیدن آب) تا ‎\‎‏لر{‎A60‎} ‏(از هم فاصله‌گرفتن) برچسب‎\‎‏LTRfootnote{‎Label‎}‎‏گذاری شده‌اند. این ‎‎‏ویدیوها از 3 زاویه‌ی مختلف و با استفاده از ‌سنجش‌گرهای‎‎‏ کینکت ‎\‎‏LTRfootnote{‎Kinect Sensors‎}‏ ضبط شده‌اند تا مختصات ۳بعدی مفاصل به دست آیند. این مجموعه داده به‌صورت کلی به دو ‎‏دسته سنجه‎\‎‏LTRfootnote{‎Benchmark‎}‏ تقسیم شده است.‎\cite{NTU_paper}‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎‎\begin{enumerate}</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">\item‏ ‎\‎‏لر{X-sub}‏:‎‎ در این سنجه‏، ‎‏بازیگران‎ برای ‎‎‏مجموعه‌ی آموزش ‎\‎‏LTRfootnote{‎Train Set‎}‏ و مجموعه‌ی آزمون ‎\‎‏LTRfootnote{‎Test Set‎}‏ متفاوت هستند. ‎‏‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">\item‏ ‎\‎‏لر{‎‏‎X-view‎}‎‎: در این سنجه‏، ‏برای مجموعه‌ی آموزش از زاویه‌های ۱ و ۲ دوربین و برای مجموعه‌ی آزمون از زاویه‌ی ۳ دوربین استفاده شده است. </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">\end{enumerate}‎</p>
+<p dir='rtl' style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‏در این پروژه نیز از هردوی این سنجه‌ها به‌صورت جداگانه استفاده شده است.‏‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎‎\begin{figure}[ht]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">\centerimg‏‎{ntu_actionRec}{8cm}‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">\caption[‎‏برخی از قاب‌های مجموعه داده‌ی ‎\‎‏لر{‎NTU RGB+D‎}]{‏برخی از قاب‌های مجموعه داده‌ی ‎\‎‏لر{‎NTU RGB+D‎}‎\cite{ntu_site}‎}‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎\label{fig:ntu}‎‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">\end{figure}‎‎</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;"></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;"></p>
+<p dir='rtl' style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎\‎‏قسمت{‏معیار تابع هزینه‌ی آنتروپی متقابل‎‎}‎‎‎‎‎</p>
+<p dir='rtl' style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‏در اکثر مسائل دسته‌بندی‏، از این تابع به‌عنوان معیار درستی تخمین استفاده می‌کنند.‎\cite{entropy_src}‎ ‏‏‎‎\cite{st-gcn}‎‎ در مسائل دسته‌بندی دودویی این تابع با رابطه‌ی ‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎‎\begin{equation}‎‎\label{eqn:cefbinary}‎‏‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">	‎L(y, ‎‎\hat{y}‎)‎ =‎ -‎ ‎(y‎\log ‎(‎\hat{y}‎) + (1 - y)‎\log ‎(1 - ‎\hat{y}‎)‎)‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">\end{equation}‎‎‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎ تعریف می‌شود.‎\cite{entropy_src}‎</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;"></p>
+<p dir='rtl' style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">برای مسائل دسته‌بندی که تعداد دسته در آن‌ها از دو بیشتر است‏، این تابع از رابطه‌ی</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎‎\begin{equation}‏ ‎‎\label{eqn:multiclass}‎‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎‏	 ‎L(y, ‎‎\hat{y}) = ‎- ‎‎\sum‎_{i}y_i‎\log ‎‎\hat{y_i}‎‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">\end{equation}‎‎‎‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎ محاسبه می‌شود.‎\cite{entropy_src}‎</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">‎</p>
+<p dir='rtl' style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; -qt-user-state:0;">در ‏هر دوی روابط ‎‎\ref{eqn:cefbinary}‎‎‏ و ‎‎\ref{eqn:multiclass}‎‎‏، ‎‎$‎y‎$‎‏ برچسب واقعی است که دو مقدار صفر یا یک را می‌گیرد و ‎‎$‎‎‎\hat{y}‎$‎‎‏ مقدار مشاهده‌شده است که هر مقداری بین صفر تا یک می‌تواند بگیرد. </p></body></html>
